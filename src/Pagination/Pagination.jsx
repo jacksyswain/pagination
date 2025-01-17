@@ -83,7 +83,7 @@ const PaginationApp = () => {
       <div style={{ marginTop: "20px", textAlign: "center" }}>
         <button
           onClick={handlePrevious}
-          disabled={currentPage === 1}
+          
           style={{
             backgroundColor:"#34eb7a",
             color:"white",
@@ -98,7 +98,7 @@ const PaginationApp = () => {
             color:"white",}}>{currentPage}</span>
         <button
           onClick={handleNext}
-          disabled={currentPage === Math.ceil(data.length / rowsPerPage)}
+          
           style={{
             backgroundColor:"#34eb7a",
             color:"white",
